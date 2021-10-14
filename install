@@ -1,0 +1,24 @@
+┌─[alejandro@parrot]─[~/Desktop/Apps]
+└──╼ $git clone https://github.com/ngalongc/AutoLocalPrivilegeEscalation 
+Cloning into 'AutoLocalPrivilegeEscalation'...
+remote: Counting objects: 46, done.
+remote: Total 46 (delta 0), reused 0 (delta 0), pack-reused 46
+Unpacking objects: 100% (46/46), done.
+
+┌─[alejandro@parrot]─[~/Desktop/Apps]
+└──╼ $cd AutoLocalPrivilegeEscalation/
+
+┌─[alejandro@parrot]─[~/Desktop/Apps/AutoLocalPrivilegeEscalation]
+└──╼ $ls
+
+auto_priv_exploit.sh  auto_searchsploit.py  README.md
+┌─[alejandro@parrot]─[~/Desktop/Apps/AutoLocalPrivilegeEscalation]
+└──╼ $./auto_searchsploit.py -h
+
+usage: auto_searchsploit.py [-h] kernel_version
+Process some integers.
+positional arguments:
+  kernel_version  Kernel Version
+  
+optional arguments:
+  -h, --help      show this help message and exit
